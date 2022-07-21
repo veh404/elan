@@ -1,0 +1,124 @@
+*{
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 0.5em;
+    font-size: 1.5em;
+    color: black;
+    text-align: left;
+}
+
+h1{
+    color: rgb(102, 103, 171);
+    text-transform: uppercase;
+}
+
+th{
+    background-color: rgb(102, 103, 171);
+    color: white;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 10em auto 1em auto;
+    width: 70%;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.supprimer{
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    background-color:rgb(102, 103, 171);
+    color: white;
+    font-size: 1.1em;
+    padding: 5px 1em;
+    
+}
+
+.suppr{
+    text-decoration: none;
+
+}
+
+.noproducts {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.supprimer li a:before{
+    list-style: none;
+    text-decoration: none;
+}
+.supprimer li a:hover {
+    text-decoration: none;
+    }
+
+.navigation{
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    background-color: rgb(102, 103, 171);
+    padding: 1.5em;
+    color: white;
+    font-weight: 800;
+}
+
+.navigation a, li{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 1.1em;
+    color: white;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+    color: white;
+}
+
+.p-form{
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    padding: 1.1em;
+}
+
+.label-form{
+    color: rgb(102, 103, 171);
+    padding: 0.5em 1em;
+}
+
+.input-form{
+    padding: 0.5em 1em;
+}
+
+.quantity-button{
+    padding: 0 5px;
+    font-size: 1em;
+    margin: 1em;
+}

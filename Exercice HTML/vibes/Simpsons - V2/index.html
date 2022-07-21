@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Les Simpsons</title>
+</head>
+<body>        
+    <nav class="navbar text-right padded-element">
+            <a href="">Accueil</a>
+            <a href="">Le film</a>
+            <a href="">Personnages</a>
+            <a href="">Histoire</a>
+            <a href="">Matt&nbsp;Groening</a>
+        </nav> 
+    <div id="wrapper">
+
+        <header class="bluezone text-center">
+            <h2 class="padded-element">Oohh Pinaise!...</h2>
+            <img id="banniere" src="img/simpson.jpg" alt="La famille Simpson sur leur canapé">
+        </header>
+
+
+
+        <main>
+            <article>
+                <h1 id="main-title">Les Simpson</h1>
+                <section>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto voluptatem nobis nostrum blanditiis nihil, iste doloribus dicta ab autem ad accusantium, sequi hic tempora dolor, minima corporis rerum velit quasi!
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ex iusto dignissimos nemo non ullam labore error fugiat. Quo accusamus soluta autem nobis, doloribus voluptatem quis? Consequuntur illum sunt cumque.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga inventore quam cumque ab reprehenderit dicta debitis id similique laboriosam nostrum velit aliquam eos, ipsa nemo ad fugiat quo nobis? Assumenda.
+                        </p>
+                        <div id="gallery">
+                            <div>
+                                <img src="img/movie.png" alt="">
+                            </div>
+                            <div>
+                                <img src="img/movie.png" alt="">
+                            </div>
+                            <div>
+                                <img src="img/movie.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <aside class="bluezone padded-element">
+                        <figure class="text-center">
+                            <img src="img/matt-groening.jpg" alt="">
+                            <figcaption>
+                                <strong>Matt Groening</strong>
+                                <br>
+                                <small><em>Dessinateur</em></small>
+                            </figcaption>
+                        </figure>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo asperiores fugit voluptatem dolores laborum eaque quos magni totam vitae, eum optio adipisci cupiditate facere minima quidem harum exercitationem, consectetur eligendi.
+                        </p>
+                        <div style="clear:left"></div>
+                    </aside>
+                </section>
+                
+            </article>
+            
+        </main>
+        
+        <footer class="bluezone text-center padded-element">
+            &copy; 2015 21st Century Fox
+        </footer>
+    </div>
+    <script>
+        function Stack() {
+            var collection = []
+            this.print = function() {
+                console.log(collection)
+            }
+            this.push = (element) => {
+                collection.push(element)
+            }
+            this.pop = () => {
+                return collection.pop()
+            }
+            this.peek = () => {
+                return collection[collection.length-1]
+            }
+            this.isEmpty = () => {
+                return collection.length == 0
+            }
+            this.clear = () => {
+                collection = []
+            }
+        }
+
+        let stack = new Stack();
+        console.log(stack.push("truc"))
+        console.log(stack.push("chose"))
+        console.log(stack.pop())
+        console.log(stack.peek())
+        console.log(stack.clear())
+        console.log(stack.isEmpty())
+
+        console.log(stack)
+    </script>
+</body>
+</html>

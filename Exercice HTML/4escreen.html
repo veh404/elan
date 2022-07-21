@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <style>
+        body {
+            box-sizing: border-box;
+            background-color: #EEE;
+        }
+
+        #container {
+            width: 600px;
+            height: 600px;
+            border: 1px solid #CCC;
+            margin: 0 auto;
+            background-color: #FFF;
+            position: relative;
+        }
+
+        #rouge,
+        #vert,
+        #bleu {
+            text-align: center;
+        }
+
+        #rouge {
+            width: 200px;
+            height: 200px;
+            background-color: #F00;
+            position: absolute;
+            right: 2%;
+            bottom: 2%;
+        }
+
+        #vert {
+            width: 100px;
+            height: 100px;
+            background-color: #0F0;
+            position: absolute;
+            right: 27%;
+            bottom: 27%;
+        }
+
+        #bleu {
+            width: 50px;
+            height: 50px;
+            background-color: #00F;
+            position: absolute;
+            right: 40%;
+            bottom: 40%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="bleu">BLEU</div>
+        <div id="vert">VERT</div>
+        <div id="rouge">ROUGE</div>
+    </div>
+</body>
+
+</html>

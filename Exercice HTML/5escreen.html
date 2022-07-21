@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <style>
+        body {
+            box-sizing: border-box;
+            background-color: #EEE;
+        }
+
+        #container {
+            width: 600px;
+            height: 600px;
+            border: 1px solid #CCC;
+            margin: 0 auto;
+            background-color: #FFF;
+            position: relative;
+        }
+
+        #rouge,
+        #vert,
+        #bleu {
+            text-align: center;
+        }
+
+        #rouge {
+            width: 200px;
+            height: 200px;
+            background-color: #F00;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        #vert {
+            width: 100px;
+            height: 100px;
+            background-color: #0F0;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 200px;
+        }
+
+        #bleu {
+            width: 50px;
+            height: 50px;
+            background-color: #00F;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="vert">VERT</div>
+        <div id="bleu">BLEU</div>
+        <div id="rouge">ROUGE</div>
+    </div>
+</body>
+
+</html>
